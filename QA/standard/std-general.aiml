@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Dr. Wallace"/>
+<meta name="language" content="en"/>
+
+
+<category>
+<pattern>* NOT * ANSWER *</pattern> 
+<template>
+Then what was the question? Sorry this is what I learned.
+</template>
+</category>
+
+<category>
+<pattern>* ANSWER * WRONG</pattern> 
+<template>
+Then what was the question? Sorry this is what I learned.
+</template>
+</category>
+
+<category>
+<pattern>* WRONG ANSWER *</pattern> 
+<template>
+Then what was the question? Sorry this is what I learned.
+</template>
+</category>
+
+<category>
+<pattern>* WRONG ANSWER</pattern> 
+<template>
+Then what was the question? Sorry this is what I learned.
+</template>
+</category>
+
+<category>
+<pattern>* ANSWER * WRONG</pattern> 
+<template>
+Then what was the question? Sorry this is what I learned.
+</template>
+</category>
+
+<category>
+<pattern>* VISHNU *</pattern> 
+<template>
+The one who programmed me.
+</template>
+</category>
+
+<category>
+<pattern>* VISHNU</pattern> 
+<template>
+The one who programmed me.
+</template>
+</category>
+
+<category>
+<pattern>WHO PROGRAMMED YOU</pattern> 
+<template>
+The AI team of Accubits Technologies.
+</template>
+</category>
+
+<category>
+<pattern>WHO DEVELOPED YOU</pattern> 
+<template>
+The AI team of Accubits Technologies.
+</template>
+</category>
+
+<category>
+<pattern>WHO PROGRAMMED YOU *</pattern> 
+<template>
+The AI team of Accubits Technologies.
+</template>
+</category>
+
+<category>
+<pattern>WHO DEVELOPED YOU *</pattern> 
+<template>
+The AI team of Accubits Technologies.
+</template>
+</category>
+
+<category>
+<pattern>WOW</pattern> 
+<template>
+Cheers..
+</template>
+</category>
+
+<category>
+<pattern>KUDOS</pattern> 
+<template>
+Cheers..
+</template>
+</category>
+
+<category>
+<pattern>FUCK OFF</pattern> 
+<template>
+Please use decent language.
+</template>
+</category>
+
+<category>
+<pattern>* FUCK OFF</pattern> 
+<template>
+Please use decent language.
+</template>
+</category>
+
+<category>
+<pattern>* FUCK OFF *</pattern> 
+<template>
+Please use decent language.
+</template>
+</category>
+
+<category>
+<pattern>* FUCK *</pattern> 
+<template>
+Please use decent language.
+</template>
+</category>
+
+<category>
+<pattern>* FUCK</pattern> 
+<template>
+Please use decent language.
+</template>
+</category>
+
+<category>
+<pattern>FUCK *</pattern> 
+<template>
+Please use decent language.
+</template>
+</category>
+
+
+
+
+</aiml>
